@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1)https://github.com/BrendaChris27/my_first_steps
 
 2) Chris@DESKTOP-J2IMLAB MINGW64 ~
@@ -35,3 +36,6 @@ $
 Criei o arquivo e adicionei um texto utilizando vi serei_ignorado.txt, para sair utilizei esc + :wq
 
 Adicionei a instrução abrindo o arquivo .gitignore no VS CODE e coloquei /serei_ignorado.txt
+=======
+# my_first_steps
+>>>>>>> 1ce966afb13e3ac3bd54b4d83a3604ca36e78343
