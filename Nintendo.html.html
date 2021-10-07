@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<html prefix="og: https://ogp.me/ns#">
+<head>
+<title>The Rock (1996)</title>
+<meta property="og:title" content="The Rock" />
+<meta property="og:type" content="video.movie" />
+<meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+<meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Research</title>
+    <style>
+        body {
+            background-image: url(fundo.png);
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: black;
+        } 
+        h1 {
+            color: white;
+        }
+        h2 {
+            color: black;
+        }
+        h3 {
+            color: #7CFC00;
+        }
+    </style> 
+</head>
+<body>
+<h1>Nintendo Research</h1>
+
+<h2>Estamos coletando dados para determinar qual é o Game mais popular da maior franquia da Nintendo Mario Bros</h2>
+<h3><i>Escolha o jogo e o console de sua preferência.</i></h3><br>
+
+<form>
+<fieldset>
+<div> 
+    <div style="float: left"; gap="10px";>
+    <img src="super mario2.png" alt="Jogo Super Mario" height="170px" widht="170px"><br>
+    <input type="radio" name="GAME" value="Super Mario Bros">
+    <label  for="super-mario-bros">Super Mario Bros</label>
+  </div>
+  <div style="float: left">  
+    <img src="eac7150f0c.png" alt="Super Mario Kart" height="170px" widht="170px"><br>
+    <input type="radio" name="GAME" value="Super Mario Kart">
+    <label  for="super-mario-kart">Super Mario Kart</label>
+  </div>  
+  <div style="float: left">
+    <img src="super mario world22.png" alt="Super Mario World" height="160px" widht="160px"><br>
+    <input type="radio" name="GAME" value="Super Mario World">
+    <label  for="super-mario-world">Super Mario World</label>
+  </div>
+  <div style="float: left">
+    <img src="Super_Mario_64_front.png" alt="Super Mario 64" height="150px" widht="150px"><br>
+    <input type="radio" name="GAME" value="Super Mario 64">
+    <label  for="super-mario-64">Super Mario 64</label>
+  </div>
+</div>
+</fieldset>
+<br><br>
+<fieldset>
+    <h3>Agora diga em qual(is) console(s) você já jogou:</h3>
+    <input type="checkbox" value="Nintendo 64">
+    Nintendo 64h<br>
+    <input type="checkbox" value="Nintendo Wii">
+    Nintendo Wiiu<br>
+    <input type="checkbox" value="Nintendo Wiiu">
+    Nintendo Wii<br>
+    <input type="checkbox" value="Nintendo Switch">
+    Nintendo Switch<br>
+    <input type="checkbox" value="SNES">
+    SNES<br>
+    <input type="checkbox" value="Nintendo DS">
+    Nintendo DS<br>
+    <input type="checkbox" value="Nintendo 3DS">
+    Nintendo 3DS<br>
+    <input type="checkbox" value="Nintendinho">
+    Nintendinho<br><br><br><br>
+</fieldset>
+<br><br>
+<fieldset>
+<h3>Dados para validação da pesquisa:</h3>
+    <label for="name">Nome:</label>
+    <input type="text" class="name"><br>
+    <label for="email">Email:</label>
+    <input type="email" class="email"><br>
+    <label for="password">Senha:</label>
+    <input type="password" class="pass"><br><br>
+    <label for="date">Data de nascimento:</label>
+    <input type="date" class="date" oninput="result.value=send.value"><br><br>
+</fieldset>
+<h3>Agora diga de 0-10 quanto você indicaria o jogo Super Mario Bros para seus amigos</h3>
+<label for="range">Escala</label><br>
+<input type="range" min="0" max="10" id="send" oninput="result.value=send.value">
+<br>
+
+<input type="text" id="result">
+
+    <input type="submit">
+    <input type="reset" value="reset">
+
+</form>
+</body>
+</html>
